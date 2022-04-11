@@ -1,44 +1,46 @@
-# TTUGDSC
+# Getting Started with Create React App
 
-Public website for the Texas Tech chapter of the Google Developers Student Clubs
-Here you can watch and even participate in the development on the TTU GDSC Website. Eventually, it'll be the single point of contact for the club. A one stop shop for our events, team, and projects.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-_To avoid unnecessary pain, we recommend reading up a bit or watching a bit on React and Next.js._
+## Available Scripts
 
-If you want to contribute, follow [our guidelines](https://github.com/ttugdsc/ttugdsc/blob/main/CONTRIBUTION.md).
+In the project directory, you can run:
 
-For a breakdown on what we're shooting for, check out our [project page](https://www.figma.com/file/uEBOlD2GGmVO0sCAKTowAh/Lo-fi-Wireframe-Kit-Launchpad-for-Website-Wireframe) and our [discussion page](https://github.com/ttugdsc/ttugdsc/discussions).
+### `npm start`
 
-## Getting Started
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-First, install the dependencies
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-```bash
-# clone the repository
-git clone https://github.com/ttugdsc/ttugdsc
+### `npm test`
 
-npm i
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Then, start the development server:
+### `npm run build`
 
-```bash
-npm run dev
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### `npm run eject`
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-## Happy coding 🎉🙌
+To learn React, check out the [React documentation](https://reactjs.org/).
